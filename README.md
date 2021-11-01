@@ -7,9 +7,9 @@ https://dev.to/elalemanyo/how-to-install-docker-and-docker-compose-on-raspberry-
 Pull influx:1.8
 Pull 
 ```bash
-$ pull influx:1.8
-$ pull telegraf
-$ pull grafana/grafana
+pull influx:1.8
+pull telegraf
+pull grafana/grafana
 ```
 
 
