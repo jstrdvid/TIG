@@ -19,8 +19,16 @@ https://linuxize.com/post/how-to-install-git-on-raspberry-pi/
 
 ## Download this repo
 ```bash
-sudo git clone 
+sudo git clone https://github.com/jstrdvid/TIG.git
 ```
+
+##Start docker-compose
+```bash
+sudo docker-compose up -d
+```
+
+
+
 
 ## Services and Ports
 ### Grafana
