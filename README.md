@@ -1,20 +1,21 @@
-## Start the stack with docker compose
-## Services and Ports
+## Start by installing docker and docker-compose
 
+https://dev.to/elalemanyo/how-to-install-docker-and-docker-compose-on-raspberry-pi-1mo
+
+## Services and Ports
 ### Grafana
 - URL: http://localhost:3000 
 - User: admin 
 - Password: admin 
 
 ### Telegraf
-- Port: 8125 UDP (StatsD input)
+- Port: 8125
 
 ### InfluxDB
-- Port: 8086 (HTTP API)
+- Port: 8086
 - User: admin 
 - Password: admin 
 - Database: influx
-
 
 Run the influx client:
 
