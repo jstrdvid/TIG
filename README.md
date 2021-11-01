@@ -32,7 +32,7 @@ sudo docker-compose up -d
 
 ## Services and Ports
 ### Grafana
-- URL: http://localhost:3000 
+- URL: http://<IPADRESSRPI>:3000 
 - User: admin 
 - Password: admin 
 
