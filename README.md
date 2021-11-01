@@ -2,6 +2,18 @@
 
 https://dev.to/elalemanyo/how-to-install-docker-and-docker-compose-on-raspberry-pi-1mo
 
+## Pull InfluxdB/Grafana/telegraf
+
+Pull influx:1.8
+Pull 
+```bash
+$ pull influx:1.8
+$ pull telegraf
+$ pull grafana/grafana
+```
+
+
+
 ## Services and Ports
 ### Grafana
 - URL: http://localhost:3000 
@@ -17,11 +29,12 @@ https://dev.to/elalemanyo/how-to-install-docker-and-docker-compose-on-raspberry-
 - Password: admin 
 - Database: influx
 
-Run the influx client:
 
-```bash
-$ docker-compose exec influxdb influx -execute 'SHOW DATABASES'
-```
+
+
+
+
+
 
 Run the influx interactive console:
 
